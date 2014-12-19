@@ -7,7 +7,7 @@ Create a package.json file and install mocha testing framework
 
 
 In a terminal window, run 
-$ mocha -w
+$ ./node_modules/.bin/mocha -w
 
 
 This uses http://mochajs.org/ for a test framework with shouldjs for BDD style assertions https://github.com/shouldjs/should.js
