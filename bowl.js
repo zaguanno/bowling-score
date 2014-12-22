@@ -3,7 +3,7 @@ var game = function game(){
 };
 
 game.prototype.roll = function(pins){
-	console.log("knocked "+ pins + " down!");
+	//console.log("knocked "+ pins + " down!");
 	this.sum += pins;
 };
 
